@@ -33,7 +33,7 @@ jobs:
 
   deploy:
     needs: test
-    runs-on: [self-practice-runner, self-hosted, Linux, X64, ubuntu-2204-self]
+    runs-on: self-hosted
 
     steps:
       - name: Checkout Code
